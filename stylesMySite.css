@@ -1,0 +1,146 @@
+/**********************TAG SELECTOR****************************>*/
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Alex Brush', cursive;
+    font-size: 5.625rem;
+    color:#b5076b;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 2.5rem;
+    color:#b5076b;
+}
+h3{
+    font-family: 'Dosis', sans-serif;
+    color: #eb6383;
+}
+p{
+    color: #40514E;
+    line-height: 2;
+}
+hr{
+    color: #EAF6F6;
+    border-style: none;
+    border-top-style: dotted;
+    width:5%;
+    border-width: 5px;
+}
+a{
+    color:#b5076b;
+    text-decoration: none;
+    font-family: 'Monsterrata',sans-serif;
+    margin: 10px 20px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+/********************************CLASS SELECTORS***************************************/
+/********************************DIV ELEMENTS STYLING*****************************************/
+.top-container{
+    background-color: #c1a1d3;
+    margin-top: 0;
+    margin-bottom: 0;
+    position:relative;/* by setting this position to relative the elements inside the top container such as the cloud
+                        will consider this as their parent and move accordingly (i.e) inside this div.*/
+    padding-top: 100px;
+     
+}
+.middle-container{
+    padding: 10%;
+    background-color: #f4f6ff;
+}
+.bottom-container{
+   size: 50%;  
+   background-color: #fa26a0; 
+   padding: 50px 0 20px;
+   line-height: 2;
+}
+.skill-row{
+    width:50%;
+    margin:100px auto 100px auto;
+    text-align:left;
+    line-height: 2;
+}
+/********************************COPY RIGHT AND CONTACT DETAIL STYLING*****************************************/
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+}
+.contact-detail{
+    margin:  5% 30%;
+}
+/********************************IMAGE STYLING*****************************************/
+.profileIcon{
+    width:25%;
+}
+.webDevImg{
+    width: 25%;
+    float:left;
+    margin-right: 30px;
+}
+.appDevImg{
+    width: 25%;
+    float:right;
+    margin-left: 30px;
+    margin-bottom: auto;
+}
+.rainbow{
+    width:30%;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+
+}
+.top-cloud{
+    position: relative;
+    top: -10px;
+    left:-170px;
+    bottom: 10px;
+    /*left:300px;
+    bottom: 300px;*/
+    margin-right: 300px;  
+}
+/********************************BUTTON STYLING*****************************************/
+.btn {
+    background: #d934c6;
+    background-image: -webkit-linear-gradient(top, #d934c6, #cc3dc2);
+    background-image: -moz-linear-gradient(top, #d934c6, #cc3dc2);
+    background-image: -ms-linear-gradient(top, #d934c6, #cc3dc2);
+    background-image: -o-linear-gradient(top, #d934c6, #cc3dc2);
+    background-image: linear-gradient(to bottom, #d934c6, #cc3dc2);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Dosis', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-top: 2%;
+  }
+  
+.btn:hover {
+    background: #d490db;
+    background-image: -webkit-linear-gradient(top, #81338a, #972499);
+    background-image: -moz-linear-gradient(top, #d490db, #de84e0);
+    background-image: -ms-linear-gradient(top, #d490db, #de84e0);
+    background-image: -o-linear-gradient(top, #d490db, #de84e0);
+    background-image: linear-gradient(to bottom, #d490db, #de84e0);
+    text-decoration: none;
+  }
+  /********************************ID's*****************************************/
+#web-dev{
+    font-weight: normal;
+}
+
+
+
