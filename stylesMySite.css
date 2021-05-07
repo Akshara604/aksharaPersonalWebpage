@@ -95,7 +95,7 @@ a:hover{
     width:30%;
 }
 .bottom-cloud{
-    position: absolute;
+    position: relative;
     right: 300px;
     top: 50px;
 
